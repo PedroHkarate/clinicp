@@ -1,0 +1,36 @@
+@import url(./vars.css);
+
+body{
+    background-color: var(--cor-1);
+    font-size: 1rem;
+    font-family: var(--fonte);
+}
+
+/* Header */
+
+.container__cabecalho{
+    display: flex;
+    margin: 2rem auto 0.5rem 1rem;
+}
+
+.cabecalho__conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img_medica{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.cabecalho__titulo{
+    color: var(--cor-2);
+    font-size: 1.37rem;
+}
+
+.cabecalho__status{
+    color: var(--cor-3);
+    font-size: 0.87rem;
+}
