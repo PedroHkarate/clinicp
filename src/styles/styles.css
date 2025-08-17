@@ -1,36 +1,155 @@
 @import url(./vars.css);
 
-body{
+body {
     background-color: var(--cor-1);
     font-size: 1rem;
     font-family: var(--fonte);
+    font-weight: 700;
 }
 
 /* Header */
 
-.container__cabecalho{
+.container__cabecalho {
     display: flex;
     margin: 2rem auto 0.5rem 1rem;
 }
 
-.cabecalho__conteudo{
+.cabecalho__conteudo {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.img_medica{
-    width: 20%;
+.img_medica {
+    width: 3rem;
     border-radius: 50%;
 }
 
-.cabecalho__titulo{
+.texto__cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho__titulo {
+    margin-bottom: 0;
     color: var(--cor-2);
     font-size: 1.37rem;
 }
 
-.cabecalho__status{
+.cabecalho__status {
+    margin-top: 0;
     color: var(--cor-3);
     font-size: 0.87rem;
+    font-weight: 400;
+}
+
+/* Main */
+
+.conteudo__pacientes,
+.container__pacientes-diarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.dia-da-semana {
+    padding: 0.5rem auto 0.5rem 1rem;
+    font-weight: 700;
+    color: var(--cor-2);
+}
+
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.info_paciente-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    width: 95%;
+}
+
+.img_paciente {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.info_paciente-sobre-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 1rem;
+}
+
+.nome_paciente {
+    font-size: 0.87rem;
+    color: var(--cor-2);
+}
+
+.tipo_consulta {
+    font-size: 0.75rem;
+    color: var(--cor-3);
+    font-weight: 400;
+}
+
+.chat {
+    margin-right: 3rem;
+}
+
+.horario-e-botoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.horario {
+    color: var(--cor-2);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.botoes-card {
+    display: flex;
+    gap: 1.12rem;
+}
+
+.ligacao,
+.endereco {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.video,
+.audio,
+.endereco {
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+
+.video {
+    color: var(--cor-1);
+    background-color: var(--cor-5);
+}
+
+.audio {
+    border: 2px solid var(--cor-6);
+    color: var(--cor-2);
+}
+
+.endereco {
+    background-color: var(--cor-4);
+    width: 85%;
+    color: var(--cor-1);
+    padding: 0.75rem 2.87rem;
 }
