@@ -1,4 +1,5 @@
 @import url(./vars.css);
+@import url(./mediaqueries.css);
 
 body {
     background-color: var(--cor-1);
