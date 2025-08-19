@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/mediaqueries.css">
     <title>Document</title>
 </head>
 
@@ -370,6 +371,44 @@
                 <div class="overlay"></div>
             </section>
         </section>
+
+        <section class="cadastro-2">
+            <h2 class="cadastro-2__titulo">Cadastre Uma Nova Consulta</h2>
+            <section class="cadastro-2__container">
+                <section class="cadastro-2__container__conteudo">
+                    <div class="cadastro-dados">
+                        <div class="cadastro-inputs">
+                            <span class="titulo-input">Nome Completo</span>
+                            <input type="text" class="input-cadastro" placeholder="Digite Seu Nome Completo">
+                        </div>
+                        <div class="cadastro-inputs">
+                            <span class="titulo-input">E-mail</span>
+                            <input type="text" class="input-cadastro" placeholder="Digite Seu E-mail">
+                        </div>
+                        <div class="cadastro-inputs">
+                            <span class="titulo-input">Endereço</span>
+                            <input type="text" class="input-cadastro" placeholder="Digite Seu Endereço">
+                        </div>
+                        <div class="cadastro-inputs">
+                            <span class="titulo-input">Número de Celular/Whatsapp</span>
+                            <input type="text" class="input-cadastro celular" placeholder="Digite Seu Número de Telefone">
+                        </div>
+                        <div class="cadastro-inputs">
+                            <span class="titulo-input">Consulta</span>
+                            <select name="consulta" id="" class="input-cadastro tipo-c">
+                                <option value="">Escolha o Tipo de Consulta</option>
+                                <option value="">On-line</option>
+                                <option value="">Presencial</option>
+                            </select>
+                        </div>
+                        
+                        <div class="cadastro-inputs">
+                            <button class="finalizar-cadastro">Finalizar Cadastro</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
     </main>
 
     <footer class="rodape">
@@ -396,6 +435,8 @@
             </div>
         </section>
     </footer>
+
+
 </body>
 
 </html>
