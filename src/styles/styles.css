@@ -244,6 +244,10 @@ body {
     display: block;
 }
 
+.cadastro-2{
+    display: none;
+}
+
 /* Footer */
 
 .rodape {
