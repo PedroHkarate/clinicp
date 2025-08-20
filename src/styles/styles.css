@@ -244,10 +244,6 @@ body {
     display: block;
 }
 
-.cadastro-2{
-    display: none;
-}
-
 /* Footer */
 
 .rodape {
@@ -268,7 +264,7 @@ body {
     align-items: center;
 }
 
-.rodape-botao{
+.rodape-botao {
     display: flex;
     flex-direction: column;
     align-items: center;
