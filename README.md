@@ -32,9 +32,7 @@ Este site trata-se de uma página estática desenvolvida em 7 dias (14/08/2025 -
 Acesse o site através do link: 
 
 ## Portfólio
-![Portfolio](src/img/Celular)
-![Portfolio](src/img/Tablet)
-![Portfolio](src/img/Desktop)
+![Portfolio](src/img/Celular.png) ![Portfolio](src/img/Tablet.png) ![Portfolio](src/img/Desktop.png)
 
 ## Integrantes do Projeto
 
